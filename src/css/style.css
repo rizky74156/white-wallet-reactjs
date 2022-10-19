@@ -1,0 +1,799 @@
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    * a {
+        text-decoration: none;
+    }
+
+    .batas {
+        margin-bottom: 100px;
+    }
+
+    /* Header */
+
+    #header {
+        padding-top: 49px;
+        font-family: 'Poppins', sans-serif;
+        margin: 0 auto 100px;
+    }
+
+    .background {
+        background-color: #E4F0FF;
+        height: 100vh;
+    }
+
+    .menu-header {
+        z-index: 4;
+    }
+
+    .balance h1 {
+        font-weight: 600;
+        font-size: 14px;
+
+
+        color: #282828;
+    }
+
+    .bg-menu a {
+        text-decoration: none;
+    }
+
+    .bg-menu p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 23px;
+        /* identical to box height, or 230% */
+
+        letter-spacing: 0.3px;
+
+        color: #282828;
+    }
+
+    .menu-header a {
+        text-decoration: none;
+    }
+
+    .balance p {
+        padding-top: 0px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 40px;
+        /* or 333% */
+
+
+        color: #616161;
+    }
+
+    .balance span {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 40px;
+        /* or 333% */
+
+
+        color: #FF8700;
+    }
+
+    .menu-header p {
+        margin-top: 7px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+
+
+        text-align: center;
+        letter-spacing: 0.3px;
+
+        color: #282828;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* NAVBAR */
+    nav p {
+        margin-bottom: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+
+        letter-spacing: 0.3px;
+
+        color: #9E9E9E;
+    }
+
+    .active {
+        filter: brightness(0) saturate(100%) invert(20%) sepia(13%) saturate(3040%) hue-rotate(176deg) brightness(92%) contrast(88%);
+    }
+
+    /* NAVBAR END */
+
+    /* Card */
+    .card-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+
+        display: flex;
+        align-items: center;
+
+        color: #282828;
+    }
+
+    .card-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+
+        color: #757575;
+
+    }
+
+    .text-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        color: #282828;
+    }
+
+    .navbar-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 40px;
+        margin-top: 20px;
+        color: #282828;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* PROFILE */
+    .data-diri h1 {
+        margin-bottom: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #282828;
+    }
+
+    .data-diri span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        color: #757575;
+    }
+
+    .setting h1 {
+        margin-bottom: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+
+        color: #282828;
+    }
+
+    .setting span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        padding-right: 5px;
+        color: #757575;
+    }
+
+    .keluar {
+        margin-bottom: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 40px;
+        /* identical to box height, or 333% */
+
+
+        color: #427BC8;
+
+        border: none;
+        width: 100%;
+
+    }
+
+    /* PROFILE END */
+
+
+
+
+
+
+    /* Button */
+    #button {
+        font-weight: 600;
+        font-size: 15px;
+
+
+        color: #FFFFFF;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Riwayat */
+    .riwayat-transaksi {
+        text-decoration: nonew;
+    }
+
+    .navbar-Riwayat h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        /* identical to box height, or 286% */
+
+
+        color: #282828;
+    }
+
+    .card-riwayat {
+        background: #DEE5EF;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    .card-riwayat:hover {
+        background: #f2f5f8;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    .card-riwayat h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        /* identical to box height, or 286% */
+
+
+        color: #282828;
+    }
+
+    .card-riwayat .tanggal p {
+        width: 90%;
+        font-weight: 400;
+        font-size: 9px;
+        /* identical to box height, or 400% */
+
+
+        color: #757575;
+    }
+
+    .card-riwayat .jenis p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        color: #282828;
+    }
+
+    .TopUp {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 40px;
+        /* identical to box height, or 400% */
+
+
+        color: #22B07D;
+    }
+
+    .Transfer {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 40px;
+        /* identical to box height, or 400% */
+
+
+        color: #D62827;
+    }
+
+    .Pembayaran {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 40px;
+        /* identical to box height, or 400% */
+
+
+        color: #D62827;
+    }
+
+    /* Riwayat End */
+
+
+
+
+
+
+
+
+
+    /* TopUp */
+
+    .navbar-TopUp h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 40px;
+        /* identical to box height, or 286% */
+
+
+        color: #282828;
+    }
+
+
+    .saldo-anda p {
+        font-weight: 400;
+        font-size: 14px;
+
+        color: #828282;
+    }
+
+    .saldo-anda h2 {
+        font-weight: 400;
+        font-size: 36px;
+
+
+        color: #2C5285;
+    }
+
+    .pilih-nominal {
+        margin-top: 20px;
+    }
+
+    .pilih-nominal h1 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 40px;
+
+        color: #282828;
+
+    }
+
+    .button-nominal {
+        background-color: white;
+        border: 1px solid #E5E5E5;
+        border-radius: 50px;
+        padding: 5px 18px;
+
+        font-weight: 400;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .button-nominal:focus {
+        border: 1px solid #427BC8;
+        color: #427BC8;
+    }
+
+    .nominal-lainnya h2 {
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        /* identical to box height, or 400% */
+
+
+        color: #828282;
+    }
+
+    .kartu-debit h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        /* identical to box height, or 286% */
+
+
+        color: #282828;
+    }
+
+    .bank p {
+        font-weight: 400;
+        font-size: 12px;
+        margin-right: 11px;
+
+
+        color: #282828;
+    }
+
+    .bank span {
+        font-weight: 600;
+        font-size: 12px;
+        /* identical to box height, or 333% */
+
+
+        color: #282828;
+    }
+
+    /* TopUp End */
+
+
+
+    /* Withdraw */
+    .navbar-Withdraw h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+        /* identical to box height, or 286% */
+
+
+        color: #282828;
+    }
+
+    .saldo span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+
+
+        color: #757575;
+    }
+
+    .saldo p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+
+
+        color: #C2C2C2;
+    }
+
+    .withdraw h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+
+
+        color: #282828;
+
+    }
+
+    .nominal-withdraw h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+
+
+        color: #282828;
+
+    }
+
+    /* End Withdraw */
+
+
+
+
+
+
+
+
+
+    /* Detail Riwayat */
+    .navbar-Riwayat h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #282828;
+    }
+
+    .jenis h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+
+        color: #282828;
+    }
+
+    .jenis p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        color: #282828;
+
+    }
+
+    .jenis .kondisi h1 {
+        font-weight: 600;
+        font-size: 10px;
+        color: #22B07D;
+    }
+
+    /* Detail Transaksi */
+    .detail-transaksi h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 40px;
+        /* identical to box height, or 333% */
+
+
+        color: #282828;
+    }
+
+    .detail-transaksi p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+
+
+        color: #282828;
+
+    }
+
+    .nomor-referensi p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        color: #282828;
+
+        margin-bottom: 22px;
+    }
+
+    .bantuan p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+
+
+        color: #000000;
+    }
+
+    .total-transaksi p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+
+
+        color: #282828;
+
+    }
+
+    /* Detail Riwayat End*/
+
+
+
+
+
+
+
+
+
+    /* Inbox */
+    .card-time {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+
+
+        color: #787878;
+    }
+
+    .card-judul {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+
+
+        color: #282828;
+    }
+
+    .card-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+
+
+        color: #787878;
+        margin-bottom: 0px;
+    }
+
+    .pilihan {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 40px;
+    }
+
+    .active-2 {
+        border: 2px solid #427BC8;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        color: #427BC8;
+    }
+
+    .text-empty h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+
+
+        color: #282828;
+    }
+
+    .text-empty span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+
+
+        color: #787878;
+    }
+
+    .non-active {
+        color: #282828;
+    }
+
+    /* Inbox End*/
+
+
+    /* Input Login Register */
+    .input p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+
+        color: #525252;
+        margin-bottom: 0px;
+    }
+
+    .input-login {
+        border: 0.5px solid #B4B4B4;
+        border-radius: 10px;
+        width: 100%;
+        padding-left: 5px;
+        height: 33px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+
+        color: #525252;
+    }
+
+    .input-login:focus {
+        outline: none;
+    }
+
+    /* Input Login Register End*/
+
+    /* Button login */
+    .btn-login {
+        background: #69ABFF;
+        box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        width: 100%;
+        border: none;
+
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;
+        padding: 10px;
+    }
+
+    .btn-login-register {
+        border: 1px solid #69ABFF;
+        border-radius: 20px;
+        width: 100%;
+        background-color: white;
+
+        color: #69ABFF;
+        font-style: normal;
+        font-weight: 400;
+        padding: 10px;
+    }
+
+    /* Button login End */
+
+    /* Login */
+    .header-login {
+        margin-top: 30px;
+    }
+
+    .header-login h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 42px;
+
+        color: #69ABFF;
+
+    }
+
+    .login h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+
+        color: #000000;
+    }
+
+    /* Login End */
+
+    /* Register */
+
+    .header-register h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 42px;
+
+        color: #69ABFF;
+
+    }
+
+    .login h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+
+        color: #000000;
+    }
+    /* Register End*/
