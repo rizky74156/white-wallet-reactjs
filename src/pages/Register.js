@@ -24,7 +24,7 @@ const Register = () => {
                 <div className='register'>
                     <div className='py-2'>
                         <Logininput
-                            label={"Email Adress"}
+                            label={"Email"}
                             type="email"
                             id={"email"}
                             placeholder="masukan email"
@@ -32,23 +32,28 @@ const Register = () => {
                     </div>
                     <div className='py-2'>
                         <Logininput
-                            label={"Email Adress"}
-                            type="email"
-                            id={"email"}
-                            placeholder="masukan email"
+                            label={"Fullname"}
+                            type="text"
+                            id={"name"}
+                            placeholder="masukan nama"
                         />
                     </div>
                     <div className='py-2'>
                         <Logininput
-                            label={"Email Adress"}
+                            label={"Phone Number"}
                             type="email"
-                            id={"email"}
-                            placeholder="masukan email"
+                            id={"phonenumber"}
+                            placeholder="masukan no telefon"
                         />
                     </div>
-
-
-
+                    <div className='py-2'>
+                        <Logininput
+                            label={"Password"}
+                            type="password"
+                            id={"password"}
+                            placeholder="masukan password"
+                        />
+                    </div>
 
                     <div className='py-2'>
                         <Buttonregister />
