@@ -24,7 +24,7 @@ const Register = () => {
 
   useEffect(() => {
     //megambil data
-    axios.get("http://localhost:3000/akun").then((res) => {
+    axios.get("http://localhost:3001/akun").then((res) => {
       console.log(res.data);
       setContacts(res?.data ?? []);
     });
@@ -49,7 +49,7 @@ const Register = () => {
       };
       data.push(newData);
 
-      axios.post("http://localhost:3000/akun", newData).then((res) => {
+      axios.post("http://localhost:3001/akun", newData).then((res) => {
         alert("Berhasil menyimpan data");
       });
 
@@ -102,7 +102,7 @@ const Register = () => {
               <label htmlFor="">Email</label>
               <input
                 type="text"
-                className="form-control"
+                className="form-control input-login"
                 name="Email"
                 value={formData.Email}
                 onChange={handleChange}
