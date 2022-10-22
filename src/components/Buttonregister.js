@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Swal from 'sweetalert2'
 
-const Buttonregister = () => {
+const Buttonregister = ({submit}) => {
     const [active, setActive] = useState(false)
     const navigate = useNavigate()
     const handleClick = (e) => {
@@ -21,7 +21,7 @@ const Buttonregister = () => {
 
     return (
         <div>
-            <button className='btn-login' onClick={handleClick}>
+            <button className='btn-login' type='submit' onClick={handleClick} onSubmit={submit}>
                 Register
             </button>
         </div>

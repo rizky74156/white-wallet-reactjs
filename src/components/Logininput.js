@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Logininput = ({ label, placeholder, id, type }) => {
+const Logininput = ({ label, placeholder, id, type,name,change , values}) => {
     return (
         <div>
             <div className="input">
@@ -10,6 +10,9 @@ const Logininput = ({ label, placeholder, id, type }) => {
                     className="input-login"
                     id={id}
                     placeholder={placeholder}
+                    name={name}
+                    onChange={change}
+                    value={values}
                 />
             </div>
 
