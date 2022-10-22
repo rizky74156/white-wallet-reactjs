@@ -1,17 +1,16 @@
+import AppRouter from "../Routes/Subdomain";
 
-import { AdminRouter, AppRouter } from '../Routes/Routes'
-
-export const APPS =[
-    {
-        subdomain: "www",
-        app : AppRouter,
-        main : true,
-    },
-    {
-        subdomain: "admin",
-        app : AdminRouter,
-        main : false,
-    },
+export const APPS = [
+  {
+    subdomain: "www",
+    app: AppRouter,
+    main: true,
+  },
+  {
+    subdomain: "admin",
+    app: AppRouter,
+    main: false,
+  },
 ];
 
-export default APPS
+export default APPS;
