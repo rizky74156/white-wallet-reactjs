@@ -112,7 +112,7 @@ const Register = () => {
               <label htmlFor="">Full Name</label>
               <input
                 type="text"
-                className="form-control"
+                className="form-control input-login"
                 name="Fullname"
                 value={formData.Fullname}
                 onChange={handleChange}
@@ -122,7 +122,7 @@ const Register = () => {
               <label htmlFor="">No. Telp</label>
               <input
                 type="text"
-                className="form-control"
+                className="form-control input-login"
                 name="Phonenumber"
                 value={formData.Phonenumber}
                 onChange={handleChange}
@@ -132,9 +132,19 @@ const Register = () => {
               <label htmlFor="">Password</label>
               <input
                 type="password"
-                className="form-control"
+                className="form-control input-login"
                 name="Password"
                 value={formData.Password}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="py-2">
+              <label htmlFor="">Confirm Password</label>
+              <input
+                type="password"
+                className="form-control input-login"
+                name="Password"
+                value={formData.confirmPassword}
                 onChange={handleChange}
               />
             </div>
